@@ -57,9 +57,27 @@ We also noticed that having more hours doesn't give you a better evaluation, as 
 
 ![evaluation](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/961a39a1-4c31-4412-b1e2-9e7a9cd24bc2)
 
-We then plotted 
+We then plotted the relationship with amount of hours worked, and whether they got a promotion or not. We came to find that very few employees who were promoted in the last five years left, all of the employees who left were working the longest hours, very few employees working extensive hours were promoted. 
+This creates a very clear image of why those with mid ranged tenures with the most hours are far more likely to leave than those just starting out or those who had been there over 6 years. 
+Regardless, whether working a lot of hours or not, employees noticing the amount of work they put in has nothing to do with promotion does prompt people to consider leaving especially after staying multiple years.
+
+![promotion](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/b1f80ebc-2f21-4689-9f0f-c73973979007)
+
+We also plotted to see whether the departments employees worked in had any effect on whether they'd quit or not. It did not.
+
+![no effect](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/68a0085c-c8c6-47a1-8ff4-90a18d542598)
+
+### Creating a heatmap
+Creating a heatmap, we found that that the number of projects, monthly hours, and evaluation scores all have some positive correlation with each other, and whether an employee leaves is negatively correlated with their satisfaction level. Meaning higher satisfaction results to lower chance of leaving.
+
+![heatmap2](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/17c45d09-4b26-40e7-85bd-226245222775)
+
+### Insights
+It appears that employees are leaving the company as a result of poor management. Leaving is tied to longer working hours, many projects, and generally lower satisfaction levels. It can be ungratifying to work long hours and not receive promotions or good evaluation scores. There's a sizeable group of employees at this company who are probably burned out. It also appears that if an employee has spent more than six years at the company, they tend not to leave.
+
 
 ## Design and implement a machine learning model
+
 
 We created a Random Forest Classifier and an XGB Classifier and compare the F1 Score to identity the most accurate model in predicting the kind of customers that would be the most generous tippers.
 
