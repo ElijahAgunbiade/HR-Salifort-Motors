@@ -94,6 +94,28 @@ Creating a Confusion Matrix on the Random Forest Classifier, we are able to see 
 
 ![confusion matrix](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/d5bb787e-0885-4f39-bf08-8ddbf5b35695)
 
+From the Random Forest Classifier, we were also able to figure out which columns/factors were the most important in predicting whether an employee would quit or not. This simple information could also be turned in to the Salifort Motors' team for a better understanding on what affects their employees to leave. 
+
+![Random forest importance](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/072fd185-b21b-4b2b-973f-a6ebde12c9f9)
+
+### Summary of Analysis and model results
+After conducting feature engineering, the random forest modestly outperformed Logistic Regression with an 87% F1 Score compared to 80% for the Logistic Regression. 
+
+With the Random Forest Classifier and previous analysis, we were able to see that evaluation score, number or projects, tenure, and amount of hours employees worked had the biggest impact on employees leaving or staying. 
+
+While realizing that putting in more work had no benefit and didn't necessarily mean being more likely to be promoted, those working the most hours and the most projects in the company are far more likely to depart from the company than any other group. Taking into account that they aren't new to the company, and understand this information, nor loyal to the company and are willing to depart, those with a mid range tenure are far more likely to depart the company; especially those not receiving promotions within 5 years. 
+In addition, those with high evaluation score in generally are more likely to quit as they have more options outside of the company. Mixing in the fact that most of those working at the extreme hours are those with high evaluation scores, the likelihood of retaining those with high evaluation scores decreases.
+
 ## Executive Summary
+The models and the feature importances extracted from the models confirm that employees at the company are overworked.
+
+To retain employees, the following recommendations could be presented to the stakeholders:
+
+Cap the number of projects that employees can work on.
+Consider promoting employees who have been with the company for atleast four years, or conduct further investigation about why four-year tenured employees are so dissatisfied.
+Either reward employees for working longer hours, or don't require them to do so.
+If employees aren't familiar with the company's overtime pay policies, inform them about this. If the expectations around workload and time off aren't explicit, make them clear.
+Hold company-wide and within-team discussions to understand and address the company work culture, across the board and in specific contexts.
+High evaluation scores should not be reserved for employees who work 200+ hours per month. Consider a proportionate scale for rewarding employees who contribute more/put in more effort.
 
 
