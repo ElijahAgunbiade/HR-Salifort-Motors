@@ -22,7 +22,7 @@ Re-analyze important factors
 Draft an executive summary of your results
 
 ## Data Cleaning and Organizing
-Given the size of the data, and the research we were doing, we felt the dataframe provided had sufficient data to derive valuable information from. Therefore, in the planning part of PACE, all we focused on were missing data, outliers, and duplicates to decide what actions to take against them, as seen in the ([DataCleaningCode](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/blob/main/Data%20Cleaning%20Code)). 
+Given the size of the data, and the research we were doing, we felt the dataframe provided had sufficient data to derive valuable information from. Therefore, in the planning part of PACE, all we focused on were missing data, outliers, and duplicates to decide what actions to take against them, as seen in the [DataCleaningCode](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/blob/main/Data%20Cleaning%20Code). 
 
 ## Data Analysis
 In data analysis, we first decided to analyze the relationship with numbers of hours worked and number of projects worked in relation to people who quit. This is because we felt, realistically, these two factors would/could be very big clues on the quality of life for the employees and could anticipate which segment of people would leave, and which wouldn't. 
@@ -75,7 +75,7 @@ It appears that employees are leaving the company as a result of poor management
 
 
 ## Design and implement a machine learning model
-Upon testing Logistic Regression model with an F1 score of .80, we also tested a Random Forest Classifier whose F1 score came out to .87 after training. We decided to use the Random Forest Classifier as our learning model as it has a better possibly of prediction.
+Upon testing Logistic Regression model with an F1 score of .80, we also tested a Random Forest Classifier whose F1 score came out to .87 after training. We decided to use the Random Forest Classifier as our learning model as it has a better possibly of prediction. Our codes could be found in the [Random Forest Code](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/blob/main/RandomForestCode) page.
 
 ![logistic regression](https://github.com/ElijahAgunbiade/HR-Salifort-Motors/assets/173221971/e05191d3-ae98-44e0-ac2c-02498c61d72f)
 
