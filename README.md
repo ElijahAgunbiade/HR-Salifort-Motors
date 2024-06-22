@@ -22,7 +22,7 @@ Re-analyze important factors
 Draft an executive summary of your results
 
 ## Data Cleaning and Organizing
-Given the size of the data, and the research we were doing, we felt the dataframe provided had sufficient data to derive valuable information from. Therefore, in the planning part of PACE, all we focused on were missing data, outliers, and duplicates to decide what actions to take against them, as seen in the Data Cleaning Code file. 
+Given the size of the data, and the research we were doing, we felt the dataframe provided had sufficient data to derive valuable information from. Therefore, in the planning part of PACE, all we focused on were missing data, outliers, and duplicates to decide what actions to take against them, as seen in the [Data Cleaning Code](DataCleaningCode). 
 
 ## Data Analysis
 In data analysis, we first decided to analyze the relationship with numbers of hours worked and number of projects worked in relation to people who quit. This is because we felt, realistically, these two factors would/could be very big clues on the quality of life for the employees and could anticipate which segment of people would leave, and which wouldn't. 
